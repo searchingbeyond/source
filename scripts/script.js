@@ -5,12 +5,14 @@ window.onload=function(){
             var source = JSON.parse(xhr.responseText); 
             var str = ""; 
             for( var k in source ){ 
-//                str += "<li><a href='" + k + "'>" + source[k] + "</a></li>"; 
-                str += "<li><a href='" + k + "'><img src='./images/" + source[k] + ".jpg' /></a></li>"; 
+                str += "<div><h1>" + k + "</h1><ol>";
+                for( var j in source[k]){
+                    str += "<li><a href='" + j + "'><img src='./images/" + source[k][j] + ".jpg' /></a></li>"; 
+                }
+                str += "</ol></div>";
             }
             var body = document.getElementsByTagName("body")[0]; 
-            body.style.margin = "20% 40%"; 
-            body.innerHTML = "<ol>" + str + "</ol>"; 
+            body.innerHTML = str;
         } 
     } 
     xhr.open("GET","data.php",true); 
