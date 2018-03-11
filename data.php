@@ -2,40 +2,40 @@
 	$str = array(
 		"博客类" => array(
 			"https://www.csdn.net/"=>"CSDN",
-			"https://www.cnblogs.com/" => "博客园",	
+			"https://www.cnblogs.com/" => "cnblogs",	
 		),
 		"视频教程" => array(
-			"https://chuanke.baidu.com/"=>"百度传课",
-			"https://ke.qq.com/"=>"腾讯课堂",
-			"https://www.icourse163.org"=>"中国大学MOOC",
-			"https://mooc.guokr.com/"=>"mooc学院",
-			"https://www.imooc.com/"=>"慕课网",
-			"http://www.xuetangx.com/"=>"学堂在线",
-			"http://www.mooc.cn/"=>"慕课中国",
-			"http://study.163.com/"=>"网易云课堂",
+			"https://chuanke.baidu.com/"=>"chuanke",
+			"https://ke.qq.com/"=>"tengxunketang",
+			"https://www.icourse163.org"=>"chinamooc",
+			"https://mooc.guokr.com/"=>"moocxueyuan",
+			"https://www.imooc.com/"=>"imooc",
+			"http://www.xuetangx.com/"=>"xuetang",
+			"http://www.mooc.cn/"=>"moocchina",
+			"http://study.163.com/"=>"wangyiyunketang",
 			"http://www.51cto.com/"=>"51cto",
-			"https://www.oschina.net/"=>"开源中国"
+			"https://www.oschina.net/"=>"oschina"
 		),
 		"搜索引擎" => array(
-			"https://cn.bing.com/" => "必应",
-			"https://www.google.com.hk" => "谷歌",
-			"https://www.baidu.com" => "百度",
+			"https://cn.bing.com/" => "bing",
+			"https://www.google.com.hk" => "google",
+			"https://www.baidu.com" => "baidu",
 		),
 		"文档教程" => array(
-			"http://www.runoob.com/" => "菜鸟教程",
+			"http://www.runoob.com/" => "runoob",
 			"http://www.w3school.com.cn/" => "w3school",
-			"http://man.linuxde.net/" => "Linux命令大全",
-			"https://www.shiyanlou.com/"=>"实验楼",
+			"http://man.linuxde.net/" => "Linuxcommand",
+			"https://www.shiyanlou.com/"=>"shiyanlou",
 		),
 		"资源下载" => array(
-			"http://www.jb51.net/" => "脚本之家",
+			"http://www.jb51.net/" => "jiaobenzhijia",
 			"https://www.gitbook.com/" => "gitbook",
-			"https://www.kancloud.cn/explore" => "看云"
+			"https://www.kancloud.cn/explore" => "kanyun"
 		),
 		"工具" => array(
 			"http://www.github.com" => "github",
 			"https://paste.ubuntu.com/" => "ubuntuPaste",
-			"https://www.bejson.com/" => "数据格式转换"
+			"https://www.bejson.com/" => "convert"
 		)
     );
 	echo json_encode($str);
