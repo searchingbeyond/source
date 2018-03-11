@@ -1,5 +1,5 @@
 body{ text-align:center; margin:20px auto; }
-img{ width:160px;heigth:90px; border:2px solid grey; margin-bottom:10px; border-radius:10px; }
+img{ width:70%;heigth:50%; border:2px solid grey; margin-bottom:10px; border-radius:10px; }
 div{ float:left; margin-left:10px; width:15%;}
 li{ list-style-type: none; }
-h1{ font-family:"黑体"; color:red; text-align:center; }
+h1{ font-size:130%; color:orange; text-align:center; }
