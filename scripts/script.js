@@ -5,7 +5,8 @@ window.onload=function(){
             var source = JSON.parse(xhr.responseText); 
             var str = ""; 
             for( var k in source ){ 
-                str += "<li><a href='" + k + "'>" + source[k] + "</a></li>"; 
+//                str += "<li><a href='" + k + "'>" + source[k] + "</a></li>"; 
+                str += "<li><a href='" + k + "'><img src='./images/" + source[k] + ".jpg' /></a></li>"; 
             }
             var body = document.getElementsByTagName("body")[0]; 
             body.style.margin = "20% 40%"; 

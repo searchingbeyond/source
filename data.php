@@ -9,7 +9,7 @@
 		"http://www.mooc.cn/"=>"慕课中国",
 		"https://www.shiyanlou.com/"=>"实验楼",
 		"http://study.163.com/"=>"网易云课堂",
-		"http://www.51cto.com/"=>"51CTO",
+		"http://www.51cto.com/"=>"51cto",
 		"https://www.csdn.net/"=>"CSDN",
 		"https://www.oschina.net/"=>"开源中国"
     );
