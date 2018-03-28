@@ -2,7 +2,9 @@
 	$str = array(
 		"博客类" => array(
 			"https://www.csdn.net/"=>"CSDN",
-			"https://www.cnblogs.com/" => "cnblogs",	
+			"https://www.cnblogs.com/" => "cnblogs",
+			"https://segmentfault.com/" => "segmentfault",
+			"https://www.linuxidc.com/"	=> "linuxidc",
 		),
 		"视频教程" => array(
 			"https://chuanke.baidu.com/"=>"chuanke",
@@ -38,7 +40,8 @@
 			"https://www.bejson.com/" => "convert",
 			"http://muchong.com/" => "xiaomuchong",
 			"http://www.cnki.net/" => "cnki",
-			"http://www.cqvip.com/" => "weipu"
+			"http://www.cqvip.com/" => "weipu",
+			"https://www.anquanquan.info/" => "anquanquan",
 		)
     );
 	echo json_encode($str);
