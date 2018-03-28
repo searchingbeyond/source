@@ -35,7 +35,10 @@
 		"工具" => array(
 			"http://www.github.com" => "github",
 			"https://paste.ubuntu.com/" => "ubuntuPaste",
-			"https://www.bejson.com/" => "convert"
+			"https://www.bejson.com/" => "convert",
+			"http://muchong.com/" => "xiaomuchong",
+			"http://www.cnki.net/" => "cnki",
+			"http://www.cqvip.com/" => "weipu"
 		)
     );
 	echo json_encode($str);
